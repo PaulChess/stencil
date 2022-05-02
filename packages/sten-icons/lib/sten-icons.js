@@ -4,5 +4,5 @@ module.exports = stenIcons;
 
 function stenIcons() {
     // TODO
-    console.log('icons111');
+    console.log('icons111ss');
 }
