@@ -4,5 +4,5 @@ module.exports = stenThemes;
 
 function stenThemes() {
     // TODO
-    console.log('hello');
+    console.log('hello world');
 }
