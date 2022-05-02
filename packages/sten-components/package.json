@@ -1,6 +1,6 @@
 {
   "name": "@sten-design/components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "stencil components dir",
   "author": "paulChess <sjq15251852316@163.com>",
   "homepage": "",
@@ -20,8 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@sten-design/icons": "^1.0.1",
-    "@sten-design/themes": "^1.0.1"
+    "@sten-design/icons": "^1.0.2",
+    "@sten-design/themes": "^1.0.2"
   },
   "gitHead": "16f973b598432adbb49e061e1be6604274c30803"
 }
