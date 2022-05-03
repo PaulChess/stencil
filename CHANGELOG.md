@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/PaulChess/stencil/compare/v0.0.2...v0.0.3) (2022-05-03)
+
+
+### ✨ Features | 新功能
+
+* **组件:** 修改 commit 配置文件 ([541bc7b](https://github.com/PaulChess/stencil/commit/541bc7b29d301c4b4a3927dd63a48d5a641f04ba)), closes [#686](https://github.com/PaulChess/stencil/issues/686)
+
 ### 0.0.2 (2022-05-03)
 
 
