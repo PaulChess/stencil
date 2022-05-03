@@ -13,21 +13,26 @@ module.exports = {
     { value: "update", name: "update ⬆:    第三方库升级 " }
   ],
 
-  scopes: [{ name: '组件' }, { name: '样式' }, { name: '文档更改' }, { name: '其它变更' }],
+  scopes: [
+    { name: '组件' },
+    { name: '样式' },
+    { name: '文档更改' },
+    { name: '其它变更' }
+  ],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
   ticketNumberPrefix: 'TICKET-',
   ticketNumberRegExp: '\d{1,5}',
   messages: {
-      type: "选择一种你的提交类型:",
-      scope: "选择一个scope (可选):",         
-      customScope: "Denote the SCOPE of this change:",
-      subject: "简要说明:\n",
-      body: '详细说明，使用"|"换行(可选)：\n',
-      breaking: "非兼容性说明 (可选):\n",
-      footer: "关联关闭的issue，例如：#31, #34(可选):\n",
-      confirmCommit: "确定提交?"
+    type: "选择一种你的提交类型:",
+    scope: "选择一个scope (可选):",         
+    customScope: "Denote the SCOPE of this change:",
+    subject: "简要说明:\n",
+    body: '详细说明，使用"|"换行(可选)：\n',
+    breaking: "非兼容性说明 (可选):\n",
+    footer: "关联关闭的issue，例如：#31, #34(可选):\n",
+    confirmCommit: "确定提交?"
   },
 
   allowCustomScopes: true,

@@ -2,11 +2,14 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "postinstall": "husky install",
     "commit": "git cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "commitizen": "^4.2.4",
+    "commitlint": "^16.2.4",
     "commitlint-config-cz": "^0.13.3",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.4",
